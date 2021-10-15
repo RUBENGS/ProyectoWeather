@@ -73,9 +73,19 @@ Weather.prototype.getWeatherForecast = function (nombreCiudad) {
       var result = "";
       if (json && json.cod == 200) {
         result = "<p class='title'>Tiempo en " + json.city.name + "</p>";
-
+        const fecha = new Date();
+        const days = [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+        ];
         for (let i = 0; i < 4; i++) {
-          result += "<p class='title'>Día: " + (i + 1) + "</p>";
+          fecha.setDate(fecha.getDate() + 1);
+          result += "<p class='title'>" + days[fecha.getDay()] + "</p>";
           var max = json.list[i * 8].main.temp_max;
           var min = json.list[i * 8].main.temp_min;
           var tiempo = json.list[i * 8].weather[0].main;
