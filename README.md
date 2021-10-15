@@ -4,6 +4,8 @@ Es una aplicación web sencilla que te aporta la información del tiempo en la c
 
 Accede a la aplicación web desde [Aquí](https://rubengs.github.io/ProyectoWeather/)
 
+:)
+
 ## Hecha con
 
 - Las librerias de [Bootstrap 5.1.3](https://getbootstrap.com/) y [jQuery 3.6.0](https://jquery.com/) como front-end
