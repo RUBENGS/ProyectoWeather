@@ -1,6 +1,6 @@
 function Weather() {
-  this.apiUrl = "http://api.openweathermap.org/data/2.5/weather";
-  this.apiUrlForecast = "http://api.openweathermap.org/data/2.5/forecast";
+  this.apiUrl = "https://api.openweathermap.org/data/2.5/weather";
+  this.apiUrlForecast = "https://api.openweathermap.org/data/2.5/forecast";
 }
 
 Weather.prototype.getWeather = function (nombreCiudad) {
