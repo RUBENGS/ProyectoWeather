@@ -1,0 +1,38 @@
+@media (max-width: 540px) {
+  p {
+    font-size: 1rem; }
+
+  .title {
+    font-size: 1.5rem; } }
+@media (min-width: 540px) and (max-width: 840px) {
+  p {
+    font-size: 1.5rem; }
+
+  .title {
+    font-size: 2.5rem; } }
+@media (min-width: 840px) and (max-width: 1280px) {
+  p {
+    font-size: 2rem; }
+
+  .title {
+    font-size: 3rem; } }
+@media (min-width: 1280px) {
+  p {
+    font-size: 2.5rem; }
+
+  .title {
+    font-size: 4rem; } }
+body {
+  font-size: 1rem; }
+
+p {
+  color: white; }
+
+#informacion {
+  margin: auto; }
+  #informacion img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  #informacion p {
+    text-align: center; }
