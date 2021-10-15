@@ -18,22 +18,28 @@ Weather.prototype.getWeather = function (nombreCiudad) {
         result = "<p class='title'>Tiempo en " + json.name + "</p>";
         switch (json.weather[0].main) {
           case "Clear":
-            result += '<img src="http://openweathermap.org/img/wn/01d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/01d@4x.png">';
             break;
           case "Clouds":
-            result += '<img src="http://openweathermap.org/img/wn/02d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/02d@4x.png">';
             break;
           case "Rain":
-            result += '<img src="http://openweathermap.org/img/wn/10d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/10d@4x.png">';
             break;
           case "Thunderstorm":
-            result += '<img src="http://openweathermap.org/img/wn/11d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/11d@4x.png">';
             break;
           case "Snow":
-            result += '<img src="http://openweathermap.org/img/wn/13d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/13d@4x.png">';
             break;
           case "Mist":
-            result += '<img src="http://openweathermap.org/img/wn/50d@4x.png">';
+            result +=
+              '<img src="https://openweathermap.org/img/wn/50d@4x.png">';
             break;
           default:
             result += "";
@@ -82,27 +88,27 @@ Weather.prototype.getWeatherForecast = function (nombreCiudad) {
           switch (tiempo) {
             case "Clear":
               result +=
-                '<img src="http://openweathermap.org/img/wn/01d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/01d@4x.png">';
               break;
             case "Clouds":
               result +=
-                '<img src="http://openweathermap.org/img/wn/02d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/02d@4x.png">';
               break;
             case "Rain":
               result +=
-                '<img src="http://openweathermap.org/img/wn/10d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/10d@4x.png">';
               break;
             case "Thunderstorm":
               result +=
-                '<img src="http://openweathermap.org/img/wn/11d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/11d@4x.png">';
               break;
             case "Snow":
               result +=
-                '<img src="http://openweathermap.org/img/wn/13d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/13d@4x.png">';
               break;
             case "Mist":
               result +=
-                '<img src="http://openweathermap.org/img/wn/50d@4x.png">';
+                '<img src="https://openweathermap.org/img/wn/50d@4x.png">';
               break;
             default:
               result += "";
