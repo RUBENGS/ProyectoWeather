@@ -18,6 +18,10 @@ Pulsa el botón de buscar para realizar la consulta del tiempo.
 
 ¡Hecho!
 
+## Planificación
+
+Puedes acceder al tablero de Github [Aquí](https://github.com/RUBENGS/ProyectoWeather/projects/1)
+
 ## Contribuidores
 
 Rubén García Salas - 2º DAM
