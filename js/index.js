@@ -5,6 +5,10 @@ function Weather() {
 
 Weather.prototype.getWeatherHere = function () {
   var that = this;
+  $("#presentacion").hide();
+  $("#informacion").hide();
+  $("#weather").hide();
+  $("#forecast").hide();
   navigator.geolocation.getCurrentPosition(onSuccess, onError);
 };
 
@@ -151,7 +155,7 @@ Weather.prototype.getWeatherForecast = function (nombreCiudad) {
 };
 
 $(document).ready(function () {
-  $("#presentacion").hide();
+  $("#presentacion").fadeIn();
   $("#informacion").hide();
   $("#weather").hide();
   $("#forecast").hide();
