@@ -151,11 +151,10 @@ Weather.prototype.getWeatherForecast = function (nombreCiudad) {
 };
 
 $(document).ready(function () {
-  $("#presentacion").fadeIn();
+  $("#presentacion").hide();
   $("#informacion").hide();
   $("#weather").hide();
   $("#forecast").hide();
-  navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
   var weatherClient = new Weather();
 
@@ -194,7 +193,7 @@ $(document).ready(function () {
     $("#presentacion").hide();
     $("#informacion").hide();
     $("#weather").hide();
-    $("#forecast").hide();
+    $("#forecast").fadeIn();
     event.preventDefault();
   });
 });
