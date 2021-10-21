@@ -4,7 +4,7 @@ Es una aplicación web sencilla que te aporta la información del tiempo en la c
 
 Accede a la aplicación web desde [Aquí](https://rubengs.github.io/ProyectoWeather/)
 
-:)
+Descarga la apk desde [Aquí](https://github.com/RUBENGS/ProyectoWeather/releases/download/weather-app-test/WeatherApp.apk)
 
 ## Hecha con
 
